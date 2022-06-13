@@ -47,14 +47,14 @@ const LettersTab = ({name,itemindex, Caption, imageUrl,  onPress, item, itemurl,
                   onPress= {() => navigation.push('SwiperApp',{
                                                                 
                                                                //ii:index,
-                                                               ii:data.data[index]
+                                                               ii:data.data[index],
                                                        //item:item.id,
                                                       // itemname:item.name,
                                                       // itemurl: item.thumbnail,
                                                       // othrp:'anything i want',
                                                       
-                                                       //next: data.data[index+1],
-                                                       //prev: data.data[index-1]
+                                                       next: data.data[index+1],
+                                                       prev: data.data[index-1]
 
 
                }   ) }  

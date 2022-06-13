@@ -5,7 +5,7 @@ import {DataContext} from '../../Context/DataContext';
 
 
 const NextItemInfo = ({route, navigation}) => {
-    const { ii } = route.params;
+    const { ii, next } = route.params;
     
 
 
@@ -27,6 +27,8 @@ const NextItemInfo = ({route, navigation}) => {
          
           <Text>ii.type :{ii.type}</Text>
          <Text>ii.type :{ni}</Text>
+         <Text>next :{next.name}</Text>
+
 
 
           
