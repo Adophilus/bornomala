@@ -1,23 +1,17 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
 
 // CircleCard for display All chars
 
-
-const CircleCard = ( {itemname} ) => {
+const CircleCard = ({ itemname }) => {
   return (
-    <View style={styles.circle} >
-       <Text style={styles.text} >{itemname}</Text>
-  
+    <View style={styles.circle}>
+      <Text style={styles.text}>{itemname}</Text>
     </View>
-  )
-}
+  );
+};
 
-
-
-
-export default CircleCard
+export default CircleCard;
 
 const styles = StyleSheet.create({
   circle: {
@@ -25,15 +19,13 @@ const styles = StyleSheet.create({
     height: 60,
     borderRadius: 100 / 2,
     backgroundColor: "skyblue",
-    paddingLeft:5
+    paddingLeft: 5,
   },
 
   text: {
     width: 100,
     height: 100,
-    paddingLeft:18,
-    paddingTop:15
+    paddingLeft: 18,
+    paddingTop: 15,
   },
-
-
-})
+});
